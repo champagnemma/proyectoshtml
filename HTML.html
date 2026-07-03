@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mo/nacos</title>
+    
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        main {
+            background-color: white;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .caja-didactica {
+            background-color: #e8f4fd;
+            border-left: 5px solid #3498db;
+            padding: 15px;
+            margin: 50px 0;
+            text-align: left;
+            border-radius: 0 8px 8px 0;
+        }
+
+        button {
+            background-color: #2ecc71;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background-color: #27ae60;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>FIESTA DE ALAS MIKE Y JESUSITO </h1>
+        <p>Por su amistad de años </p>
+    </header>
+
+    <main>
+        <h2>Todos invitados A MO-NACO</h2>
+        <p>IR A MONACO ES DE NACOS</p>
+
+        <img src="https://img.freepik.com/fotos-premium/hombre-gordo-gorra-camiseta-tema-superheroe_1308157-78316.jpg" 
+             alt="Logotipo oficial de HTML5" 
+             class="imagen-web"
+             width="200">
+
+        <div class="caja-didactica">
+            <h3>Con invitados especiales como:</h3>
+            <ul>
+                <li><strong>MOY</strong></li>
+                <li><strong>el jav</strong> </li>
+                <li><strong>el chiapas</strong></li>
+            </ul>
+        </div>
+
+        <p>Haz clic en el botón de abajo (es una sorpresa)</p>
+        
+        <button id="miBoton">Presionar</button>
+    </main>
+
+    <script>
+        // Seleccionamos el botón por su ID
+        const boton = document.getElementById('miBoton');
+
+        // Le decimos qué hacer cuando el usuario haga clic
+        boton.addEventListener('click', () => {
+            alert('¡Felicidades! Has ejecutado con éxito tu primer código de JavaScript en esta página.');
+        });
+    </script>
+
+</body>
+</html>
